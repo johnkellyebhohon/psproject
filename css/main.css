@@ -1,0 +1,55 @@
+.container{
+    padding:12px;
+}
+.container{
+    margin:auto;
+}
+#p1{
+    padding:0;
+    margin-top:40px;
+}
+.row{
+    margin:auto;
+    border:1px solid lightgrey;
+    border-radius: 10px;
+}
+#inner1{
+    /* padding:10px; */
+    background-image:url(images/plusch.jpg);
+    background-position: center;
+}
+
+#inner1,#inner2{
+    text-align:center;
+}
+#inner1{
+    border:1px solid lightgrey;
+    padding:150px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius:40px;
+
+}
+#inner2{
+    margin-top:10px;
+    border:1px solid lightgrey;
+    border-bottom:none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    
+}
+.table td{
+    text-align:left;
+}
+td a{
+    color:black;
+}
+td a:hover{
+    text-decoration:none;
+}
+#btnk{
+    background:black;
+    color:white;
+}
