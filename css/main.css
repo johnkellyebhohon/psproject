@@ -1,55 +1,37 @@
-.container{
-    padding:12px;
+body{
+margin: 0;
+padding:0;
 }
-.container{
-    margin:auto;
+.outercontainer{
+border:1px solid red;
+border-radius: 20px;
+padding-top:1.5em;
+padding-bottom:0.4em;
+padding-left:2em;
+padding-right:2em;
 }
-#p1{
-    padding:0;
-    margin-top:40px;
+#firstHead{
+padding-left:0.4em;
+margin-top:0.4em;
+border-radius: 15px;
+background-color: #FB7979;
+color: #fff;
 }
-.row{
-    margin:auto;
-    border:1px solid lightgrey;
-    border-radius: 10px;
-}
-#inner1{
-    /* padding:10px; */
-    background-image:url(images/plusch.jpg);
-    background-position: center;
-}
-
-#inner1,#inner2{
+#degreeT{
+    font-size: 3.0em;
+    color:#fff;
     text-align:center;
+    background:#9199FC;
+    border-radius:15px;
 }
-#inner1{
-    border:1px solid lightgrey;
-    padding:150px;
-    border-top:none;
-    border-left:none;
-    border-right:none;
-    border-radius:40px;
-
-}
-#inner2{
-    margin-top:10px;
-    border:1px solid lightgrey;
-    border-bottom:none;
-    border-top:none;
-    border-left:none;
-    border-right:none;
-    
-}
-.table td{
+#sunnyT,h4{
+    padding:0.1em;
     text-align:left;
 }
-td a{
-    color:black;
+
+.h4Now{
+    
 }
-td a:hover{
-    text-decoration:none;
-}
-#btnk{
-    background:black;
-    color:white;
+#holdTime{
+
 }
