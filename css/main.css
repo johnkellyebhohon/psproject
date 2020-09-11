@@ -2,20 +2,30 @@ body{
 margin: 0;
 padding:0;
 }
-.outercontainer{
-border:1px solid red;
+
+.overallWrapper{
+    
+    border:1px solid lightgrey;
+    padding:1em;
+    border-radius:30px;
+    margin-top:1em;
+}
+.outerContainer{
 border-radius: 20px;
 padding-top:1.5em;
-padding-bottom:0.4em;
+padding-bottom:1.5em;
 padding-left:2em;
 padding-right:2em;
+background: #eeeeee;
+margin-top:0.5em;
+
 }
 #firstHead{
 padding-left:0.4em;
 margin-top:0.4em;
-border-radius: 15px;
-background-color: #FB7979;
-color: #fff;
+border-bottom-left-radius: 15px;
+/* border:1px solid grey; */
+border-bottom:2px solid #5635D5;
 }
 #degreeT{
     font-size: 3.0em;
@@ -27,11 +37,34 @@ color: #fff;
 #sunnyT,h4{
     padding:0.1em;
     text-align:left;
+    color: #91413E
 }
 
-.h4Now{
+#sunnyT i{
+    color:#5635D5;
+}
+.form-row{
+/* padding-left:1.5em;
+padding-right:1.5em; */
+margin-top:1em;
+}
+.form-row button, .form-row input{
+border-radius:5px;
+margin-top:0.5em;
+}
+
+.form-row button{
+background:#5635D5;
+}
+.outerContainer2{
+margin-top:1em;
+}
+
+.newY{
+
+    border-bottom-left-radius: 15px;
+    padding-left: 0.5em;
+    border-bottom:1px solid #000;
+    margin-bottom:1em;
     
-}
-#holdTime{
-
 }
